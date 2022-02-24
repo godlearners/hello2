@@ -18,7 +18,7 @@ public class Main {
 		try {
 			while((temp=br.readLine())!=null)
 			{
-				if(temp.indexOf("��")>-1)
+				if(temp.indexOf("万")>-1)
 				{ 
 					float followerNum=Float.valueOf(temp.replaceAll("万", ""));
 					followerNum=followerNum*10000;
@@ -39,7 +39,7 @@ public class Main {
 					int num=(int)followerNum;
 					temp=String.valueOf(num);
 				}
-				else if(temp.indexOf("�f")>-1)
+				else if(temp.indexOf("萬")>-1)
 				{ 
 					float followerNum=Float.valueOf(temp.replaceAll("萬", ""));
 					followerNum=followerNum*10000;
