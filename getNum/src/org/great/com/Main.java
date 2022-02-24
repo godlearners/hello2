@@ -18,9 +18,9 @@ public class Main {
 		try {
 			while((temp=br.readLine())!=null)
 			{
-				if(temp.indexOf("ÕÚ")>-1)
+				if(temp.indexOf("ÔøΩÔøΩ")>-1)
 				{ 
-					float followerNum=Float.valueOf(temp.replaceAll("ÕÚ", ""));
+					float followerNum=Float.valueOf(temp.replaceAll("‰∏á", ""));
 					followerNum=followerNum*10000;
 					int num=(int)followerNum;
 					temp=String.valueOf(num);
@@ -39,9 +39,9 @@ public class Main {
 					int num=(int)followerNum;
 					temp=String.valueOf(num);
 				}
-				else if(temp.indexOf("»f")>-1)
+				else if(temp.indexOf("ÔøΩf")>-1)
 				{ 
-					float followerNum=Float.valueOf(temp.replaceAll("»f", ""));
+					float followerNum=Float.valueOf(temp.replaceAll("Ëê¨", ""));
 					followerNum=followerNum*10000;
 					int num=(int)followerNum;
 					temp=String.valueOf(num);
